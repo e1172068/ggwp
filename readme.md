@@ -12,7 +12,8 @@ Github: https://github.com/e1172068/ggwp
 `PORT = "****"`<br>
 `API_KEY = "RGAPI-********-****-****-****-************"`
 5. Dans le fichier `ggwp/frontend/static/scripts/views/Home.js` changer l'url dans l'action du formulaire afin qu'il corresponde au port que vous avez choisi d'utiliser.
-9. Tout devrait être bon!
+6. Positionnez-vous à la racine du serveur, lancer le terminal et exécuter la commande `node server.js` pour lancer celui-ci.
+7. Hopefully you're good to go! 
 
 ## Note pour installation sur un serveur distant
 Pour l'installation sur un serveur distant, les chemins relatifs devront être ajustés en fonction de la configuration de votre serveur. Ainsi plusieurs paths pourraient être à changer. Dans une version ultérieure de ce projet, cette gestion sera centralisée dans un fichier de configuration. Fichiers concernés: l'ensemble des fichiers contenu dans le dossier `views`, la navigation de `index.html`, le fichier `server.js`. 
